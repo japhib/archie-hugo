@@ -10,16 +10,16 @@ body {
 }
 
 ::selection {
-  background: red;
+  background: blue;
   color: #fff;
   text-shadow: none;
 }
 
 hr {
-  border-top: 3px dotted blue;
+  border-top: 0.4rem dotted dodgerblue;
 }
 code {
-  background-color: lightblue;
+  background-color: beige;
   color: black;
   text-decoration: bold;
   padding: 0.1em 0.2em;
@@ -31,7 +31,8 @@ pre {
   padding: 1em;
 }
 blockquote {
-  border-color: blue;
+  border-color: dodgerblue;
+  color: lightgray
 }
 
 h1,
@@ -44,7 +45,7 @@ h6 {
 }
 h1::before {
   color: var(--darkMaincolor);
-  content: "# ";
+  content: "### ";
 }
 h2::before {
   color: var(--darkMaincolor);
@@ -52,19 +53,19 @@ h2::before {
 }
 h3::before {
   color: var(--darkMaincolor);
-  content: "### ";
+  content: "# ";
 }
 h4::before {
   color: var(--darkMaincolor);
-  content: "#### ";
+  content: "# ";
 }
 h5::before {
   color: var(--darkMaincolor);
-  content: "##### ";
+  content: "# ";
 }
 h6::before {
   color: var(--darkMaincolor);
-  content: "###### ";
+  content: "# ";
 }
 
 a {
@@ -72,7 +73,7 @@ a {
   color: inherit;
 }
 a:hover {
-  background-color: var(--darkMaincolor);
+  background-color: lightblue;
   color: black;
 }
 

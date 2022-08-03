@@ -1,10 +1,10 @@
 /* Markdown */
 :root{
 --maincolor: dodgerblue;
---bordercl: darkblue;
+--bordercl: dodgerblue;
 --callouctcolor:dodgerblue;
---hovercolor:navy;
---darkMaincolor: #50fa7b;
+--hovercolor: navy;
+--darkMaincolor: dodgerblue;
 }
 html {
   color: #232333;
@@ -32,7 +32,7 @@ p {
 
 hr {
   border: 0;
-  border-top: 3px dotted var(--bordercl);
+  border-top: 0.4rem dotted var(--bordercl);
   margin: 1em 0;
 }
 
